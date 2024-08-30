@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: say_hello
         run: |
-          echo "hello workflow"
-          echo "second command"
+          mkdir sample
+          ls
         
