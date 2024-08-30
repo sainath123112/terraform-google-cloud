@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say_hello
-        run: echo "hello workflow"
-      - name: say_bye
-        run: ls
+        run: |
+          echo "hello workflow"
+          echo "second command"
         
