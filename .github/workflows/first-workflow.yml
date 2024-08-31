@@ -4,8 +4,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: say_hello
-        run: |
-          mkdir sample
-          ls
+      - name: Output github data
+        run: echo "${{toJSON(github)}}"
         
